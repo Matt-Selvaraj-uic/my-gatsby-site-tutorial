@@ -1,0 +1,21 @@
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .block {
+    width: 50%;
+  }
+
+  .image {
+      padding-top: 5%;
+  }
+  .demographics {
+      padding-top: 10%;
+  }
+
+  .reasons {
+      width: 50%;
+      padding-top: 15%;
+  }
