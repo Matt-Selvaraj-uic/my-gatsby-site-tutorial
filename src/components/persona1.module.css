@@ -7,15 +7,25 @@
   .block {
     width: 50%;
   }
-
   .image {
       padding-top: 5%;
+      padding-left:17%;
   }
   .demographics {
       padding-top: 10%;
+      padding-left: 10%;
   }
 
   .reasons {
       width: 50%;
-      padding-top: 15%;
+      padding-top: 20%;
   }
+
+  .centerRight {
+      text-align: center;
+      padding-right: 25%;
+  }
+
+  .centerLeft {
+    text-align: center;
+}

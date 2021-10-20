@@ -4,7 +4,9 @@ import {
     block,
     image,
     demographics,
-    reasons
+    reasons,
+    centerRight,
+    centerLeft,
 } from './persona1.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 
@@ -19,7 +21,7 @@ const Persona1 = () => {
                     />
             </div>
             <div className = {demographics}>
-                <h1>Matias Torres</h1>
+                <h1 className = {centerRight}>Matias Torres</h1>
                 <h2>Age: 23</h2>
                 <h2>Occupation: Warehouse Worker</h2>
                 <h2>Place of Residence: Central Illinois</h2>
@@ -27,7 +29,7 @@ const Persona1 = () => {
             </div>
         </div>
         <div  className = {reasons}>
-            <h1>Reasons for refusing the vaccine</h1>
+            <h1 className = {centerLeft}>Reasons for refusing the vaccine</h1>
             <div>
                 <h2>Uknown Long-term Effects</h2>
                 <div><p1>"I just think we are going too fast requiring it when the long-term effects can't be known"</p1></div>
