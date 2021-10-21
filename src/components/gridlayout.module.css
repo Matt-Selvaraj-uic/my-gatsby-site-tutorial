@@ -3,9 +3,27 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-image: linear-gradient(#008bbf, #96ca52);
+    color: #fff;
   }
-  .block {
+.block {
     width: 33%;
     padding-left: 3%;
     padding-right: 3%;
-  }
+}
+.block:hover {
+    opacity: 0.8;
+}
+.cardtext {
+    color: #fff;
+    text-align: right !important;
+}
+
+.cardheader {
+    color: #fff;
+    text-align: center;
+}
+  .image {
+      height: 200px;
+      margin: 20px;
+}

@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 // Step 2: Define your component
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About Me">
+    <Layout pageTitle="About">
       <p>Hi there! This is a test OSF website for my internship. jargon jargon, word word. about about. yay!</p>
     </Layout>
   )

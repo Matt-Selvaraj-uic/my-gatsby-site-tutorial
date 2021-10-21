@@ -1,12 +1,12 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
+import {cardheader} from './gridlayout.module.css'
 
 const GridCard = ({ link, title, children}) => {
     return (
-        <Link style={{ textDecoration: 'none', color: 'black'}} to = {link}><div>
-            <h1>{title}</h1>
+        <a style={{ textDecoration: 'none', color: 'black'}} href = {link} target = '_blank' rel="noreferrer"><div>
+            <h1 className = {cardheader}>{title}</h1>
             {children}
-        </div></Link>
+        </div></a>
     )
 }
 
